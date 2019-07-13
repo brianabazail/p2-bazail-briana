@@ -12,88 +12,6 @@ body {
   background-color: #FFFBFC;
 }
 
-.hero-image {
-  background-image: url("images/header.png");
-  background-color: #13293D;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: left;
-  position: absolute;
-  top: 60%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  color: #FFFBFC;
-}
-
-.about {
-  background-color: #13293D;
-}
-
-.running-image {
-  width: 100%;
-  border-style: solid;
-  border-color: #D8D0C1;
-  padding: 2%;
-  border-width: 13px 13px 13px 13px;
-  margin: 8%;
-  display: block;
-  height: 100%;
-}
-
-.offset {
-    max-width: 500px;
-    position: relative;
-    top: 5rem;
-  }
-
-.about-content p {
-  text-align: left;
-  margin-left: 40%;
-  margin-top: 1%;
-  padding: 1%;
-}
-
-.about-content h1 {
-  color: #4E91CD;
-  font-size: 2rem;
-  margin-left: 40%;
-  padding: 1%;
-}
-
-.about-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.about-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  padding: 1%;
-  margin: 2%;
-}
-
-.pic1-column {
-  height: 100%;
-}
-
-.pic2-column {
-  height: 100%;
-}
-
-.pic3-column {
-  height: 100%;
-}
-
 h1, h2 {
   font-family: 'Libre Baskerville', serif;
   color: #FFFBFC;
@@ -112,6 +30,7 @@ img {
   width: 100%;
 }
 
+/*NAVIGATION*/
 ul {
   float: right;
 }
@@ -146,37 +65,27 @@ a {
   width: 60%;
 }
 
-.button {
+/*HERO SECTION*/
+.hero-image {
+  background-image: url("images/header.png");
   background-color: #13293D;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
   color: #FFFBFC;
-  padding: 15px 50px;
-  text-align: center;
-  display: inline-block;
-  font-size: 1rem;
-  margin: 25px;
-  cursor: pointer;
-  border-radius: 4px;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%
 }
 
-.about-button {
-  background-color: #FFFBFC;
-  color: #13293D;
-  border: 1px solid #13293D;
-  text-align: center;
-  display: inline-block;
-  font-size: 1rem;
-  margin: 25px;
-  cursor: pointer;
-  border-radius: 4px;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
-  padding: 10px 15px;
-}
-
+/*HOME PAGE*/
 .row {
   display: flex;
   flex-direction: row;
@@ -229,6 +138,103 @@ a {
   background-color: #416788;
 }
 
+/*ABOUT PAGE*/
+.about {
+  background-color: #13293D;
+}
+
+.running-image {
+  width: 100%;
+  border-style: solid;
+  border-color: #D8D0C1;
+  padding: 2%;
+  border-width: 13px 13px 13px 13px;
+  margin: 8%;
+  display: block;
+  height: 100%;
+}
+
+.offset {
+  max-width: 500px;
+  position: relative;
+  top: 5rem;
+}
+
+.about-content p {
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+.about-content h1 {
+  color: #4E91CD;
+  font-size: 2rem;
+  margin-left: 40%;
+  padding: 1%;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 1%;
+  margin: 2%;
+}
+
+.pic1-column {
+  height: 100%;
+}
+
+.pic2-column {
+  height: 100%;
+}
+
+.pic3-column {
+  height: 100%;
+}
+
+/*BUTTONS*/
+.button {
+  background-color: #13293D;
+  color: #FFFBFC;
+  padding: 15px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
+}
+
+.about-button {
+  background-color: #FFFBFC;
+  color: #13293D;
+  border: 1px solid #13293D;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px 15px;
+}
+
+/*FOOTER*/
 .footer{
   background-color: #13293D;
   height: 70px;
