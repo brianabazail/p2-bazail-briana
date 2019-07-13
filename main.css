@@ -37,6 +37,8 @@ p {
   font-family: 'Noto Sans HK', sans-serif;
   color: #13293D;
   padding: 2%;
+  text-align: center;
+  margin: 3%;
 }
 
 img {
@@ -73,22 +75,59 @@ a {
   width: 60%;
 }
 
-.left-col img {
+.button {
+  background-color: #13293D;
+  color: #FFFBFC;
+  padding: 15px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  max-width: 500px;
-  padding: 3%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.left-col img {
+  max-width: 300px;
+  border-style: solid;
+  border-color: #13293D;
+  padding: 2%;
+  border-width: 13px 13px 13px 13px;
+  margin: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 
 .right-col {
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  text-align: center;
 }
 
 .blue-bar {
   background-color: #4E91CD;
   padding: 3%;
+}
+
+.right-col {
+  text-align: center;
 }
 
 .beige {
@@ -103,13 +142,15 @@ a {
   background-color: #416788;
 }
 
-footer {
+.footer{
   background-color: #13293D;
+  height: 70px;
+  padding: 1%;
 }
 
 footer img {
-  width: 50%;
-  max-width: 50px;
-  padding: 1%;
+  width: 34%;
+  max-width: 40px;
   margin: 1%;
+  float: right;
 }
