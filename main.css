@@ -1,0 +1,115 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+.hero-image {
+  background-image: url("images/header.png");
+  background-color: #13293D;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #FFFBFC;
+}
+
+h1, h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: #FFFBFC;
+  padding: 5%;
+}
+
+p {
+  font-family: 'Noto Sans HK', sans-serif;
+  color: #13293D;
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #FFFBFC;
+}
+
+.navbar {
+  font-family: 'Noto Sans HK', sans-serif;
+  text-align: right;
+}
+
+.navbar img {
+  width: 100%;
+  max-width: 270px;
+  float: left;
+  position: relative;
+  margin: 20px 25px 25px 20px;
+  filter: drop-shadow(5px 5px 5px #13293D);
+}
+
+.navbar a {
+  width: 60%;
+}
+
+.left-col img {
+  width: 100%;
+  max-width: 500px;
+  padding: 3%;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.blue-bar {
+  background-color: #4E91CD;
+  padding: 3%;
+}
+
+.beige {
+  background-color: #D8D0C1;
+}
+
+.blue {
+  background-color: #4E91CD;
+}
+
+.dark {
+  background-color: #416788;
+}
+
+footer {
+  background-color: #13293D;
+}
+
+footer img {
+  width: 50%;
+  max-width: 50px;
+  padding: 1%;
+  margin: 1%;
+}
