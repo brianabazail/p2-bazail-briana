@@ -138,6 +138,14 @@ a {
   padding: 3%;
 }
 
+.blue-bar-2 {
+  background-color: #13293D;
+  padding: 1px;
+  margin: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
 .beige {
   background-color: #D8D0C1;
   flex-grow: 1;
@@ -178,7 +186,7 @@ a {
   flex-basis: 100%;
   flex: 1;
   padding: 2%;
-  margin: 4%;
+  margin: 3%;
 }
 
 .pic1-about-column {
@@ -261,6 +269,14 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.pic3-stories-column p, .pic4-stories-column p {
+  font-family: 'Noto Sans HK', sans-serif;
+  color: #13293D;
+  padding: 2%;
+  text-align: center;
+  margin: 3%;
 }
 
 .share-story p {
@@ -386,6 +402,34 @@ input[type=submit]:hover {
   padding: 5%;
 }
 
+.top-about-button {
+  background-color: #D8D0C1;
+  color: #13293D;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  padding: 5%;
+}
+
+#button1, #button2, #button3, #button4 {
+  background-color: #416788;
+  color: #FFFBFC;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  padding: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 /*HAMBUERGER MENU*/
 .hamburger{
   background:none;
@@ -444,9 +488,6 @@ footer img {
   float: right;
 }
 
-.hide {
-  display: none;
-}
 
 /*MEDIA QUERIES*/
 @media (min-width: 820px) {
