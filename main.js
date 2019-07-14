@@ -17,47 +17,17 @@ ext_link.addEventListener('click',
 document.getElementById('button1').addEventListener('mouseenter',
   function() {
     document.getElementById('button1').style.backgroundColor = '#D8D0C1';
+    document.getElementById('button2').style.backgroundColor = '#D8D0C1';
+    document.getElementById('button3').style.backgroundColor = '#D8D0C1';
+    document.getElementById('button4').style.backgroundColor = '#D8D0C1';
   }, false
 );
 
 document.getElementById('button1').addEventListener('mouseleave',
   function() {
     document.getElementById('button1').style.backgroundColor = '#416788';
-  }, false
-);
-
-document.getElementById('button2').addEventListener('mouseenter',
-  function() {
-    document.getElementById('button2').style.backgroundColor = '#D8D0C1';
-  }, false
-);
-
-document.getElementById('button2').addEventListener('mouseleave',
-  function() {
     document.getElementById('button2').style.backgroundColor = '#416788';
-  }, false
-);
-
-document.getElementById('button3').addEventListener('mouseenter',
-  function() {
-    document.getElementById('button3').style.backgroundColor = '#D8D0C1';
-  }, false
-);
-
-document.getElementById('button3').addEventListener('mouseleave',
-  function() {
     document.getElementById('button3').style.backgroundColor = '#416788';
-  }, false
-);
-
-document.getElementById('button4').addEventListener('mouseenter',
-  function() {
-    document.getElementById('button4').style.backgroundColor = '#D8D0C1';
-  }, false
-);
-
-document.getElementById('button4').addEventListener('mouseleave',
-  function() {
     document.getElementById('button4').style.backgroundColor = '#416788';
   }, false
 );
