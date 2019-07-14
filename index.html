@@ -10,13 +10,40 @@
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <title>Home | Autism Speaks</title>
 
 </head>
 
 <body>
 
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+
   <header>
+
+    <nav class="menu">
+      <img src="images/logo.png" alt="autism walk logo" title="autism walk logo">
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="stories.html">STORIES</a>
+        </li>
+        <li>
+          <a href="#">DONATE</a>
+        </li>
+        <li>
+          <a href="#">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
     <div class="hero-image">
         <nav class="navbar">
           <img src="images/logo.png" alt="autism walk logo" title="autism walk logo">
@@ -56,8 +83,8 @@
           <p>Autism can be diagnosed by age 2, but the average age of diagnosis is still over 4. Early screening for autism can make a lifetime of difference. Learn more and access screening resources.</p>
           <button class="button">VIEW</button>
         </div>
-
       </div>
+
       <div class="column">
         <div class="right-col">
           <section class="beige">
@@ -82,7 +109,9 @@
   </footer>
 
 
-  <script type="text/javascript" src="src/main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+  <script src="hamburger.js"></script>
 
 </body>
 
