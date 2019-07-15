@@ -430,6 +430,19 @@ input[type=submit]:hover {
   margin-right: 30%;
 }
 
+#button5 {
+  background-color: #4E91CD;
+  color: #FFFBFC;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  padding: 5%;
+}
+
 /*HAMBUERGER MENU*/
 .hamburger{
   background:none;
@@ -486,6 +499,10 @@ footer img {
   max-width: 40px;
   margin: 1%;
   float: right;
+}
+
+.hide {
+  display: none;
 }
 
 

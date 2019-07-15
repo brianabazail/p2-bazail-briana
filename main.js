@@ -10,8 +10,20 @@ ext_link.addEventListener('click',
   }, false
 );
 
-//More text appears after clicking 'LEARN MORE'//
+//Scroll over image for text on about page
+const imageOverlay = document.getElementsByClassName('running-image');
+const hiddenMessage = document.getElementById('hidden-message');
 
+const showMessage = () => {
+  hiddenMessage.classList.remove('hide');
+};
+
+const hideMessage = () => {
+  hiddenMessage.classList.add('hide');
+};
+
+imageOverlay.addEventListener('mouseover', showMessage);
+imageOverlay.addEventListener('mouseleave', hideMessage);
 
 //Button colors change when hovered over in stories page.
 document.getElementById('button1').addEventListener('mouseenter',
